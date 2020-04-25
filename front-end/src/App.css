@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  width: fixed;
+  list-style: none;
+  
+}; 
+ 
+a {
+  text-decoration: none;
+}
+
+html, body { 
+  background: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  position: static;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  list-style: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.style-div {
+  opacity:0.85;
+  background-color: turquoise;
+  position: absolute;
+    bottom:0px;
+    right: 0px;
+    top:0px;
+    left:0px;
+  background-size: cover;
+  pointer-events: none;
+}
+
+p {
+  position: relative;
+  z-index: 102;
+  color: white;
+}
+

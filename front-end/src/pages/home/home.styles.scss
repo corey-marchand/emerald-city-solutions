@@ -1,0 +1,58 @@
+.home-container {
+  width: 43%;
+  position: relative;
+    top: -20px;
+    left: -210px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  color: white;
+  z-index: 99;
+}
+
+
+.title {
+    display: inline;
+    font-weight: bold;
+    margin-left: 0;
+    margin-right: auto;
+    z-index: 99;
+    font-size: 75px;
+}
+
+.home-text {
+  font-size: 20px;
+}
+
+.button {
+  z-index: 100;
+}
+.button-container {
+  width: 100%;
+}
+.hm-button {
+  bottom: 0px;
+  right: 20px;
+  position: relative;
+  float: right;
+}
+
+.cm-button {
+  bottom: 0px;
+  right: 31px;
+  position: relative;
+  float: right;
+}
+
+.home-subsection {
+  width: 100%;
+  position: relative;
+  bottom: -280px;
+  background-color: white;
+  height: 600px;
+  z-index: 101;
+}
+
+.sub-title {
+  color: forestgreen;
+}

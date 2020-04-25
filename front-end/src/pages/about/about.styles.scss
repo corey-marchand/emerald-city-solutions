@@ -1,0 +1,87 @@
+
+.about-container {
+  width: 100%;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: inline;
+  // margin-top: 10%;
+  color: white;
+  // float: left;
+  z-index: 99;
+  height: 100%;
+  // overflow: scroll;
+}
+
+
+.about-title {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 13%;
+  text-shadow: blue;
+  margin-top: 175px;
+  font-size: 90px;
+  z-index: 99;
+  color: white;
+  position: relative;
+  overflow: scroll;
+}
+
+.about-subtitle {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 68%;
+  height: 100%;
+  z-index: 99;
+  font-size: 90px;
+  color: white;
+  overflow: scroll;
+}
+
+.about-me-section-1 {
+  width: 30%;
+  margin-right: 5%;
+  float: left;
+  position: relative;
+  z-index: 101;
+  color: black;
+}
+
+.about-me-section-2 {
+  width: 30%;
+  float: left;
+  position: relative;
+  margin-right: 5%;
+  z-index: 101;
+  color: black;
+  align-content: center;
+}
+
+.about-me-section-3 {
+  width: 30%;
+  float: left;
+  position: relative;
+  z-index: 101;
+  color: black;
+}
+
+.about-me-subsection {
+  height: 600px;
+  width: 100%;
+  bottom: -624px;
+  position: relative;
+  background-color: white;
+  z-index: 101;
+}
+
+.about-me-p {
+  color: black;
+}
+
+.about-me-sub-container {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}

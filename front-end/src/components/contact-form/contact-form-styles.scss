@@ -1,0 +1,97 @@
+.form-container {
+  width: 75%;
+  height: 600px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-name-first {
+  width: 29%;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 99;
+  margin-right: 2%;
+}
+
+.input-name-last {
+  width: 29%;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 101;
+  margin-right: 0px;
+}
+
+.form {
+  margin-top: 85px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: 320px;
+  align-content: center;
+  height: 100%;
+}
+
+.input-email {
+  width: 60%;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 99;
+}
+
+.input-message {
+  width: 75%;
+  height: 100px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 99;
+}
+
+.button {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  /* right: -196px; */
+  height: 7%;
+  width: 14%;
+  align-content: center;
+  z-index: 100;
+  bottom: -95px;
+  left: -405px;
+}
+
+.form-title {
+  margin-left: auto;
+  right: -45px;
+  margin-right: auto;
+  align-content: center;
+  position: relative;
+  z-index: 101;
+  font-weight: bold;
+  font-size: 75px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.contact-wording {
+  z-index: 101;
+  right: -15px;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.form-style-div {
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+  align-content: center;
+  height: 75%;
+  background-color: black;
+  opacity: 0.80;
+  top: -500px;
+  position: relative;
+}
