@@ -9,7 +9,7 @@ import Skills from './pages/technologies/technologies.components';
 import Form from './components/contact-form/contact-form.component';
 import Slider from './components/slider/slider.component';
 import './App.css';
-
+import Footer from './components/footer/footer.component';
 
 const App = () => (
   <>
@@ -24,6 +24,7 @@ const App = () => (
         </Switch>
         {/* <div className="style-div"></div> */}
       </Router>
+      <Footer />
   </>
 );
 

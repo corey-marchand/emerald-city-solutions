@@ -1,0 +1,96 @@
+.footer-container {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    z-index: 103;
+    height: 250px;
+    width: 100%;
+    border-top: green dashed;
+}
+
+.footer-sec-container {
+    width: 38%;
+    height: 100%;
+    margin-right: 31%;
+    margin-left: 31%;
+}
+
+
+// CSS FOR SOCIAL MEDIA SECTION
+.social-media-section {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    float: left;
+    bottom: -35px;
+}
+
+.social-link {
+    padding: 5px;
+    color: white;
+    z-index: 99;
+    text-decoration: none;
+    display: inline;
+}
+
+.social-media-logo {
+    width: 60px;
+    padding-top: 0px;
+    height: 60px;
+    align-content: center;
+    position: relative;
+    bottom: -12px;
+    left: 2px;
+    margin-right: 20px;
+}
+
+.social-media-title {
+    color: white;
+    align-content: center;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 21%;
+}
+
+.copy-right {
+    color: white;
+    position: relative;
+    bottom: -20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// CSS For NAVIGATION LinksSECTION 
+.alternate-web-section {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    float: right;
+    bottom: -35px;
+    /* right: -268px; */
+}
+
+
+.alternate-link {
+    padding: 5px;
+    color: white;
+    z-index: 99;
+    position: relative;
+    text-decoration: none;
+    right: -186px;
+    font-size: 20px;
+}
+
+.alternate-web-title {
+    color: white;
+    align-content: center;
+    position: relative;
+    width: 32%;
+    right: -210px;
+}
+
+

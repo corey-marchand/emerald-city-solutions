@@ -11,7 +11,7 @@ const NavigationBar = () => (
     </div>
     <div className="navbar-container">
       <ul className="navbar-menu">
-        <li className="navbar-link"><Link  className='navbar-text' to='/about'>About</Link></li>
+        <li className="navbar-link"><Link className='navbar-text' to='/about'>About</Link></li>
         <li className="navbar-link"><Link className='navbar-text' to='/portfolio'>Projects</Link></li>
         <li className="navbar-link"><Link className='navbar-text' to='/skills'>Skills</Link></li>
         <li className="navbar-link"><Link className='navbar-text' to='/contact'>Contact</Link></li>

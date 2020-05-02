@@ -4,7 +4,6 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   width: fixed;
   list-style: none;
-  
 }; 
  
 a {
@@ -18,26 +17,16 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100%;
   list-style: none;
-  overflow-y: scroll;
+  overflow-y: hidden;
   overflow-x: hidden;
+  position: relative;
 }
 
-.style-div {
-  opacity:0.85;
-  background-color: turquoise;
-  position: absolute;
-    bottom:0px;
-    right: 0px;
-    top:0px;
-    left:0px;
-  background-size: cover;
-  pointer-events: none;
-}
 
 p {
   position: relative;
   z-index: 102;
   color: white;
 }
-

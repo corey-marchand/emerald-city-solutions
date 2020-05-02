@@ -1,26 +1,30 @@
 
 .about-container {
-  width: 100%;
+  // width: 100%;
   position: relative;
   margin-left: 10%;
   margin-right: 10%;
-  display: inline;
+  // display: inline;
   // margin-top: 10%;
   color: white;
   // float: left;
   z-index: 99;
-  height: 100%;
-  // overflow: scroll;
+
+  padding-bottom: 450px;
+  overflow: hidden;
+  min-height: 200vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
 }
 
 
 .about-title {
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 13%;
-  text-shadow: blue;
-  margin-top: 175px;
+  margin-left: 26%;
+  margin-right: 20%;
+  width: 60%;
+  // margin-top: 175px;
   font-size: 90px;
   z-index: 99;
   color: white;
@@ -41,47 +45,63 @@
 }
 
 .about-me-section-1 {
-  width: 30%;
+  width: 28%;
+  background-color: forestgreen;
   margin-right: 5%;
   float: left;
   position: relative;
+  height: 400px;
   z-index: 101;
-  color: black;
+  color: white;
+  outline: 5px dashed white;
 }
 
 .about-me-section-2 {
-  width: 30%;
+  width: 28%;
+  background-color: forestgreen;
+  margin-right: 5%;
   float: left;
   position: relative;
-  margin-right: 5%;
+  height: 400px;
   z-index: 101;
-  color: black;
-  align-content: center;
+  color: white;
+  outline: 5px dashed white;
 }
 
 .about-me-section-3 {
-  width: 30%;
+  width: 28%;
+  background-color: forestgreen;
+  margin-right: 5%;
   float: left;
   position: relative;
+  height: 400px;
   z-index: 101;
-  color: black;
+  color: white;
+  outline: 5px dashed white;
 }
 
 .about-me-subsection {
-  height: 600px;
+  height: 400px;
   width: 100%;
-  bottom: -624px;
-  position: relative;
-  background-color: white;
+  // margin-top: 200px;
+  // bottom: 0px;
+  // position: relative;
+  // background-color: white;
   z-index: 101;
 }
 
 .about-me-p {
-  color: black;
+  color: white;
 }
 
 .about-me-sub-container {
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.about-me-title {
+  width: 62%;
+  margin-left: 19%;
+  margin-right: 19%;
 }
