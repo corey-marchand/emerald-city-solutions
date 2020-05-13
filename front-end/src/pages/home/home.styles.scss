@@ -1,58 +1,114 @@
+// .home-container {
+//   width: 43%;
+//   position: relative;
+//     top: -20px;
+//     left: -210px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   margin-top: 10%;
+//   color: #969696;
+//   z-index: 99;
+// }
+
+
+// .title {
+//     display: inline;
+//     font-weight: bold;
+//     margin-left: 0;
+//     margin-right: auto;
+//     z-index: 99;
+//     font-size: 75px;
+// }
+
+// .home-text {
+//   font-size: 20px;
+// }
+
+// .button {
+//   z-index: 100;
+// }
+// .button-container {
+//   width: 100%;
+// }
+// .hm-button {
+//   bottom: 0px;
+//   right: 20px;
+//   position: relative;
+//   float: right;
+// }
+
+// .cm-button {
+//   bottom: 0px;
+//   right: 31px;
+//   position: relative;
+//   float: right;
+// }
+
+// .home-subsection {
+//   width: 100%;
+//   position: relative;
+//   bottom: -280px;
+//   background-color: white;
+//   height: 600px;
+//   z-index: 101;
+// }
+
+// .sub-title {
+//   color: #969696;
+// }
+
+
 .home-container {
-  width: 43%;
-  position: relative;
-    top: -20px;
-    left: -210px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10%;
+  height: 400px;
+  width: 33%;
+  margin-left: 33%;
+  margin-right: 33%;
+  padding-top: 90px;
+}
+
+.home-title {
+  font-size: 118px;
+  width: 750px;
+  right: -490px;
   color: white;
-  z-index: 99;
-}
-
-
-.title {
-    display: inline;
-    font-weight: bold;
-    margin-left: 0;
-    margin-right: auto;
-    z-index: 99;
-    font-size: 75px;
-}
-
-.home-text {
-  font-size: 20px;
-}
-
-.button {
-  z-index: 100;
-}
-.button-container {
-  width: 100%;
-}
-.hm-button {
+  // bottom: 78px;
+  text-align: center;
+  position: relative;
+  z-index: 102;
   bottom: 0px;
-  right: 20px;
-  position: relative;
-  float: right;
-}
-
-.cm-button {
-  bottom: 0px;
-  right: 31px;
-  position: relative;
-  float: right;
-}
-
-.home-subsection {
-  width: 100%;
-  position: relative;
-  bottom: -280px;
-  background-color: white;
-  height: 600px;
-  z-index: 101;
 }
 
 .sub-title {
-  color: forestgreen;
+  font-size: 30px;
+  color: white;
+  position: relative;
+  z-index: 102;
+}
+
+.titles-container {
+  float: right;
+}
+
+.home-content-container {
+  position: relative;
+  bottom: 139px;
+}
+
+.home-text {
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.home-subtext {
+  width: 100%;
+  text-align-last: center;
+}
+
+.home-image {
+  z-index: 102;
+  width: 20%;
+  height: 20%;
+  position: relative;
+  top: -200px;
 }

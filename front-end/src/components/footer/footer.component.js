@@ -20,9 +20,7 @@ class Footer extends React.Component {
             <div className="footer-container">
 
                 <div className="footer-sec-container">
-
                     <div className='social-media-section'>
-                        <h3 className="social-media-title">Stay Connected</h3>
                         <ul>
                             <a href="www.facebook.com">
                                 <img className="social-media-logo" src={FbLogo} alt="fb-logo"/>
@@ -34,11 +32,9 @@ class Footer extends React.Component {
                                 <img className="social-media-logo" src={LiLogo} alt="li-logo"/>
                             </a>                     
                         </ul>
-                        <div className="copy-right">Copyright &copy; 2020 Corey Marchand</div>
-                        <div className="copy-right">All Rights Reserved. Made in WA</div>
                     </div>
 
-                    <div className="alternate-web-section">
+                    {/* <div className="alternate-web-section">
                         <h3 className="alternate-web-title">Site Links</h3>
                         <ul className="footer-menu">    
                              <li className="alternate-link"><a href="/">Home</a></li>
@@ -47,7 +43,7 @@ class Footer extends React.Component {
                              <li className="alternate-link"><a href="/skills">Skills</a></li>
                              <li className="alternate-link"><a href="/contact">Contact</a></li>
                         </ul>
-                    </div>
+                    </div> */}
 
                 </div>
 

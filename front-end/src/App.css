@@ -11,7 +11,7 @@ a {
 }
 
 html, body { 
-  background: url('https://images.unsplash.com/photo-1564667005686-cce951e72bd0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60') no-repeat center center fixed; 
+  background: url('https://images.unsplash.com/photo-1531128415655-a1de419087b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2552&q=80') no-repeat center center fixed; 
   -webkit-background-size: cover;
   position: static;
   -moz-background-size: cover;
@@ -24,6 +24,17 @@ html, body {
   position: relative;
 }
 
+.styled-div {
+  background-color: black;
+  opacity: .80;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
 
 p {
   position: relative;

@@ -14,7 +14,6 @@ import Footer from './components/footer/footer.component';
 const App = () => (
   <>
       <Router>
-        <NavigationBar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
@@ -22,9 +21,10 @@ const App = () => (
           <Route path="/skills" component={Skills} />
           <Route path="/contact" component={Form} />
         </Switch>
-        {/* <div className="style-div"></div> */}
+        <Footer />
+        <NavigationBar />
+        <div className='styled-div'></div>
       </Router>
-      <Footer />
   </>
 );
 
